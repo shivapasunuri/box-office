@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { StyledShowCard } from "./ShowCard.styled";
 import { Star } from "../styled";
 

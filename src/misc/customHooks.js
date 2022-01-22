@@ -30,7 +30,7 @@ export function useShows(key = "shows") {
   return usePersistedReducer(showsReducer, [], key);
 }
 
-export function uselastQuery(key = "lastQuery") {
+export function useLastQuery(key = "lastQuery") {
   const [input, setInput] = useState(() => {
     const persisted = localStorage.getItem(key);
     return persisted ? JSON.parse(persisted) : "";
